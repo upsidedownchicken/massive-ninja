@@ -23,8 +23,6 @@ A8eBpSLprUR
 
 ## TODO
 
-- remove `X-Powered-By` header
-- change `Content-Type` to `text/plain`
 - load test
 
 ## Running Locally
