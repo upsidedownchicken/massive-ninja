@@ -11,10 +11,8 @@ Responds in plain text with a base 58 GUID built with the current time and rando
 ```sh
 ~ $ curl -i http://localhost:5000/
 HTTP/1.1 200 OK
-X-Powered-By: Express
-Content-Type: text/html; charset=utf-8
+Content-Type: text/plain; charset=utf-8
 Content-Length: 11
-ETag: W/"b-ffbb2e25"
 Date: Mon, 10 Nov 2014 21:03:13 GMT
 Connection: keep-alive
 
