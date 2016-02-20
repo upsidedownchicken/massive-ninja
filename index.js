@@ -25,6 +25,10 @@ app.get('/hex', function(req, res) {
   res.send(flake().toString('hex'));
 });
 
+app.get('/hex2', function(req, res) {
+  res.send(flake().toString('hex'));
+});
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'));
 });
